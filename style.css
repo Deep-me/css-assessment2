@@ -1,0 +1,486 @@
+body{
+    font-family: "Poppins", serif;
+    font-style: normal;
+    padding: 0%;
+    margin: 0%;
+}
+p{
+    opacity: .9;
+}
+button{
+    color: white;
+    background-color: #285e67;
+    border: none;
+    border-radius: 50px;
+    font-size: larger;
+    font-weight: bold;
+    padding: 15px 75px;
+}
+
+.first_container{
+    padding: 30px 50px;
+    text-align: center;
+}
+.logo{
+    display: none;
+}
+.nav1 > a{
+    font-size: 20px;
+    font-weight: bold;
+    vertical-align: super;
+    padding-left: 5px;
+    color: #285e67;
+}
+.nav1{
+    margin-left: 50px;
+}
+
+.nav2 > a{
+    padding: 20px;
+}
+
+.nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.header{
+    font-size: 60px;
+    font-weight: bolder;
+    margin-top: 100px;
+    margin-bottom: 20px;
+}
+
+.second_container{
+    display: flex;
+    flex-direction: row;
+    gap: 45px;
+    padding: 20px 75px;
+}
+
+.yoga_card{
+    background-image: url(assets/yoga_card.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 20px;
+    width: 100%;
+    height: 350px;
+}
+.juice_card{
+    background-image: url(assets/jucie_card.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 20px;
+    width: 100%;
+}
+
+.second_container > div > img{
+    border-radius: 20px;
+    width: 100%;
+}
+button{
+    padding: 15px 75px;
+    margin-bottom: 30px;
+    margin-top: 20px;
+}
+.head{
+    font-size: 45px;
+    font-weight:bold;
+}
+.third_container{
+    background-color: #f4f4f4;
+    border-radius: 10px;
+    margin: 80px 75px;
+    display: flex;
+    justify-content: space-around;
+    padding: 50px;
+    padding-bottom: 0%;
+}
+.third_container > div > img{
+    padding-top: 100px;
+}
+
+.third_flex{
+    display: flex;
+    gap: 75px;
+    width: 520px;
+
+}
+.third_flex > div > img{
+    background-color: #285e67;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+
+.fourth_container{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    margin: 75px;
+    
+}
+
+.fourth_container > div > img{
+    border-radius: 20px;
+    opacity: .9;
+}
+.fo_th_content{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    padding-top: 15px;
+}
+.fo_th_content > div > img{
+    margin-top: 15px;
+}
+
+
+.fifth_container{
+    background-color: #f4f4f4;
+    border-radius: 10px;
+    margin: 80px 75px;
+    display: flex;
+    justify-content: space-around;
+    padding: 75px;
+
+}
+.fifth_flex{
+    display: flex;
+    gap: 75px;
+    width: 520px;
+
+}
+.fifth_flex > div > img{
+    background-color: #ebbfae;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.sixth_container{
+    background-image: url(assets/bridge.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+    position: relative;
+    margin: 75px;
+    padding: 75px;
+    padding-bottom: 200px;
+    text-align: center;
+}
+.sixth_container > p{
+    color: white;
+    width: 650px;
+    justify-self: center;
+    margin-top: 2px;
+
+}
+.sixth_container > img{
+    width: 40px;
+    border-radius: 10px;
+    padding: 15px 20px;
+    border: 2px solid white;
+}
+.sixth_container > .head{
+    font-size: 38px;
+    font-weight:500;
+    opacity: 1;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.sixth_container > button{
+    background-color: transparent;
+    border: 1px solid white;
+    padding: 15px 75px;
+}
+.sub_container{
+    position: absolute;
+    top: 70%;
+    left: 5%;
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+    justify-content: space-between;
+    background-color: #fce2d7;
+    border-radius: 10px;
+    padding: 75px 100px;
+}
+
+.sub_container > div > p{
+    font-size: larger;
+    margin-top: 0%;
+}
+.sub_container > div > img{
+    padding-top: 25px;
+}
+
+.final_container{
+    background-color: #285e67;
+    margin-top: 250px;
+    color:#f4f4f4;
+    padding: 75px 140px;
+}
+.final_nav1 > a{
+    font-size: 20px;
+    font-weight: 500;
+    vertical-align: super;
+    padding-left: 5px;
+    color:#f4f4f4 ;
+}
+
+
+.final_nav2 > a{
+    padding: 20px;
+    font-size: 15px;
+}
+
+.final_nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.final_container > div > img{
+    padding: 20px 20px 20px 0px;
+}
+@media screen and (max-width:1025px) {
+    .p_first_content{
+        width: 650px;
+        justify-self: center;
+    }
+    .second_container{
+        gap: 25px;
+        padding: 25px 75px;
+    }
+    .yoga_card{
+        background-position: center;
+    }
+    .juice_card{
+        background-position: center;
+    }
+    
+    .third_container{
+        display: flex;
+        flex-direction: column;
+        padding: 50px 165px;
+        justify-self: center;
+        text-align: center;
+    }
+    .third_container > div > img{
+        display: none;
+    }
+
+
+    .fourth_container > div > img{
+        height: 550px;
+        width: 400px;
+    }
+    .fourth_container > div > p{
+        padding-top: 0%;
+        margin-top: 0%;
+
+    }
+    .fourth_container > div > .head{
+        padding-bottom: 0%;
+        margin-bottom: 0%;
+    }
+    .fo_th_content > div > p{
+        color: #285e67;
+    }
+
+
+    .fifth_container{
+        display: flex;
+        flex-direction: column;
+        padding: 75px 165px;
+        justify-self: center;
+        text-align: center;
+    }
+    .fifth_container > div > img{
+        display: none;
+    }
+
+    .sixth_container{
+        background-position: center;
+        border-radius: 0px;
+    }
+    .sub_container{
+        top: 70%;
+        left: 7%;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        width: 50%;
+        gap: 25px;
+        margin-right: 25px;
+        padding: 30px 150px;
+    }
+    .sub_container > div > img{
+        width: 60px;
+        padding-bottom: 10px;
+    }
+
+    .final_nav{
+        display: block;    
+    }
+    .final_nav > div{
+        padding-bottom: 25px;
+    }
+    .final_nav2 > a{
+        padding-right: 30px;
+        padding-left: 0%;
+    }
+}
+
+@media screen and (max-width:600px) {
+    .first_container{
+        padding: 15px 25px;
+        text-align: center;
+    }
+    .nav1 > a{
+        font-size: 20px;
+        font-weight: bold;
+        vertical-align: super;
+        padding-left: 5px;
+        color: #285e67;
+    }
+    .nav1{
+        margin-left: 5px;
+    }
+    .nav2{
+        display: none;
+    }
+    .logo{
+        display: flex;
+    }
+
+    .nav{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .first_content > p{
+        width: 360px;
+        margin-bottom: 20px;
+    }
+    .header{
+        font-size: 38px;
+        font-weight: bolder;
+        margin-top: 50px;
+        margin-bottom: 20px;
+    }
+    
+    
+    .second_container{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        padding: 25px 40px;
+    }
+    .yoga_card{
+        height: 400px;
+        background-position: center;
+    }
+    .juice_card{
+        height: 400px;
+        background-position: center;
+    }
+
+    .third_container{
+        margin: 30px;
+        padding: 55px;
+    }
+    .third_flex{
+        display: flex;
+        flex-direction: column;
+        gap: 25px;
+        width: 100%;
+    }
+
+    .head{
+        font-size: 37px;
+    }
+    .fourth_container{
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        padding: 30px;
+        margin: 0px;
+        text-align: center;
+    }
+    .fourth_container > div > img{
+        height: 525px;
+        width: 375px;
+    }
+    .fo_th_content > div > p{
+        text-align: left;
+    }
+
+    .fifth_container{
+        margin: 30px;
+        padding: 45px;
+
+    }
+    .fifth_flex{
+        display: flex;
+        flex-direction: column;
+        gap: 25px;
+        width: 100%;
+    }
+
+    .sixth_container{
+        padding: 75px 20px;
+        margin: 25px;
+        background-size: cover;
+        border-radius: 10px;
+
+    }
+    .six_para{
+        display: none;
+    }
+
+    .sixth_container > img{
+        width: 25px;
+        border-radius: 10px;
+        padding: 5px 10px;
+        border: 2px solid white;
+    }
+    .sixth_container > .head{
+        font-size: 25px;
+        font-weight:500;
+        width: 250px;
+        margin-bottom: 0%;
+        margin-top: 0%;
+    }
+    .sixth_container > button{
+        background-color: transparent;
+        border: 1px solid rgba(255, 255, 255, 0.822);
+        padding: 13px 70px;
+    }
+    
+    .sub_container{
+        top: 80%;
+        left: 6%;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        width: 50%;
+        gap: 0px;
+        margin-right: 25px;
+        padding: 30px 73px;
+    }
+    
+    .final_container{
+        margin-top: 650px;
+        padding: 75px 100px;
+        padding-left: 150px;
+
+    }
+    .final_nav2{
+        display: flex;
+        flex-wrap: wrap;
+        padding: 0px;
+    }
+    .final_nav > div{
+        padding-bottom: 0%;
+    }
+
+
+}
