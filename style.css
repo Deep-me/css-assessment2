@@ -4,9 +4,15 @@ body{
     padding: 0%;
     margin: 0%;
 }
+
+section{
+    margin: 2% 5%;
+}
 p{
+
     opacity: .9;
 }
+
 button{
     color: white;
     background-color: #285e67;
@@ -18,7 +24,6 @@ button{
 }
 
 .first_container{
-    padding: 30px 50px;
     text-align: center;
 }
 .logo{
@@ -32,7 +37,7 @@ button{
     color: #285e67;
 }
 .nav1{
-    margin-left: 50px;
+    margin-left: 10px;
 }
 
 .nav2 > a{
@@ -46,7 +51,7 @@ button{
 }
 .header{
     font-size: 60px;
-    font-weight: bolder;
+    font-weight: bold;
     margin-top: 100px;
     margin-bottom: 20px;
 }
@@ -55,7 +60,6 @@ button{
     display: flex;
     flex-direction: row;
     gap: 45px;
-    padding: 20px 75px;
 }
 
 .yoga_card{
@@ -84,27 +88,27 @@ button{
     margin-top: 20px;
 }
 .head{
-    font-size: 45px;
-    font-weight:bold;
+    font-size: 47px;
+    font-weight:600;
 }
 .third_container{
     background-color: #f4f4f4;
     border-radius: 10px;
-    margin: 80px 75px;
+    margin-top: 90px;
     display: flex;
     justify-content: space-around;
-    padding: 50px;
+    padding: 25px;
     padding-bottom: 0%;
 }
+
 .third_container > div > img{
-    padding-top: 100px;
+    padding-top: 40%;
 }
 
 .third_flex{
     display: flex;
     gap: 75px;
     width: 520px;
-
 }
 .third_flex > div > img{
     background-color: #285e67;
@@ -115,21 +119,31 @@ button{
 
 .fourth_container{
     display: flex;
-    flex-direction: row;
-    gap: 50px;
-    margin: 75px;
-    
+    margin: 8% 0%;
 }
 
-.fourth_container > div > img{
+.fourth_container > div > .head {
+    margin:0%;
+}
+.fourth_img {
+    background-image: url(assets/hand.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
     border-radius: 20px;
-    opacity: .9;
+    padding: 50px;
+}
+.fourth_p{
+    font-size: 15px;
 }
 .fo_th_content{
     display: flex;
     flex-direction: row;
     gap: 20px;
     padding-top: 15px;
+}
+.fourth_content{
+    padding: 40px;
 }
 .fo_th_content > div > img{
     margin-top: 15px;
@@ -139,17 +153,15 @@ button{
 .fifth_container{
     background-color: #f4f4f4;
     border-radius: 10px;
-    margin: 80px 75px;
     display: flex;
     justify-content: space-around;
-    padding: 75px;
+    padding: 75px 100px 100px 50px;
 
 }
 .fifth_flex{
     display: flex;
     gap: 75px;
-    width: 520px;
-
+    width: 500px;
 }
 .fifth_flex > div > img{
     background-color: #ebbfae;
@@ -157,26 +169,28 @@ button{
     border-radius: 10px;
 }
 
+
 .sixth_container{
     background-image: url(assets/bridge.png);
     background-repeat: no-repeat;
     background-size: cover;
     border-radius: 10px;
     position: relative;
-    margin: 75px;
-    padding: 75px;
     padding-bottom: 200px;
     text-align: center;
+    margin-top: 8%;
 }
+
 .sixth_container > p{
     color: white;
-    width: 650px;
+    width: 50%;
     justify-self: center;
     margin-top: 2px;
 
 }
 .sixth_container > img{
     width: 40px;
+    margin-top: 50px;
     border-radius: 10px;
     padding: 15px 20px;
     border: 2px solid white;
@@ -196,16 +210,20 @@ button{
 .sub_container{
     position: absolute;
     top: 70%;
-    left: 5%;
+    left: 7%;
     display: flex;
     flex-direction: row;
-    gap: 100px;
-    justify-content: space-between;
+    justify-content: space-around;
+    align-items: center;
     background-color: #fce2d7;
     border-radius: 10px;
-    padding: 75px 100px;
+    height: 50%;
+    width: 85%;
 }
 
+.sub_container > div {
+    padding: 0px 40px;
+}
 .sub_container > div > p{
     font-size: larger;
     margin-top: 0%;
@@ -214,9 +232,13 @@ button{
     padding-top: 25px;
 }
 
+
+footer{
+    display: block;
+    margin-top: 20%;
+}
 .final_container{
     background-color: #285e67;
-    margin-top: 250px;
     color:#f4f4f4;
     padding: 75px 140px;
 }
@@ -243,14 +265,22 @@ button{
     padding: 20px 20px 20px 0px;
 }
 @media screen and (max-width:1025px) {
+    
+    section{
+        margin: 3% 8%;
+    }
     .p_first_content{
-        width: 650px;
+        width: 73%;
         justify-self: center;
     }
-    .second_container{
-        gap: 25px;
-        padding: 25px 75px;
+    .header{
+        margin-top: 20px;
     }
+    
+    .second_container{
+        gap: 30px;
+    }
+
     .yoga_card{
         background-position: center;
     }
@@ -259,29 +289,40 @@ button{
     }
     
     .third_container{
-        display: flex;
-        flex-direction: column;
-        padding: 50px 165px;
-        justify-self: center;
+        display: block;
+        padding: 3% 15%;
         text-align: center;
     }
     .third_container > div > img{
         display: none;
     }
-
-
-    .fourth_container > div > img{
-        height: 550px;
-        width: 400px;
+    .third_flex{
+        display: flex;
+        justify-content: space-around;
+        width: 100%;
     }
+
+
+    
     .fourth_container > div > p{
         padding-top: 0%;
         margin-top: 0%;
-
+        margin-bottom: 50px;
+    }
+    .fourth_img {
+        background-size: cover;
+        background-position: center;
+        padding: 0px 100px;
     }
     .fourth_container > div > .head{
         padding-bottom: 0%;
         margin-bottom: 0%;
+        line-height: 60px;
+
+    }
+    .fourth_content{
+        padding: 0%;
+        padding-left: 30px;
     }
     .fo_th_content > div > p{
         color: #285e67;
@@ -291,33 +332,45 @@ button{
     .fifth_container{
         display: flex;
         flex-direction: column;
-        padding: 75px 165px;
-        justify-self: center;
+        padding: 7% 20%;
         text-align: center;
+    }
+
+    .fifth_flex{
+        margin-top: 75px;
+        width: 100%;
     }
     .fifth_container > div > img{
         display: none;
     }
 
+    
     .sixth_container{
         background-position: center;
         border-radius: 0px;
     }
     .sub_container{
         top: 70%;
-        left: 7%;
+        left: 8%;
+        flex-direction: column;
         flex-wrap: wrap;
-        justify-content: space-around;
-        width: 50%;
-        gap: 25px;
-        margin-right: 25px;
-        padding: 30px 150px;
+        justify-content: space-evenly;
+        height: 55%;
+        width: 83%;
+    }
+    .sixth_container > p{
+        width: 70%;
+    }
+    .sub_container > div {
+        padding: 0px 20px;
     }
     .sub_container > div > img{
         width: 60px;
         padding-bottom: 10px;
     }
-
+    footer{
+        margin-top: 30%;
+    }
     .final_nav{
         display: block;    
     }
@@ -331,10 +384,14 @@ button{
 }
 
 @media screen and (max-width:600px) {
+    
+    section{
+        margin: 5% 8%;
+    }
     .first_container{
-        padding: 15px 25px;
         text-align: center;
     }
+    
     .nav1 > a{
         font-size: 20px;
         font-weight: bold;
@@ -357,12 +414,15 @@ button{
         flex-direction: row;
         justify-content: space-between;
     }
+    .p_first_content{
+        width: 100%;
+    }
     .first_content > p{
-        width: 360px;
         margin-bottom: 20px;
     }
+
     .header{
-        font-size: 38px;
+        font-size: 36px;
         font-weight: bolder;
         margin-top: 50px;
         margin-bottom: 20px;
@@ -372,8 +432,8 @@ button{
     .second_container{
         display: flex;
         flex-direction: column;
-        gap: 20px;
-        padding: 25px 40px;
+        gap: 30px;
+
     }
     .yoga_card{
         height: 400px;
@@ -383,10 +443,10 @@ button{
         height: 400px;
         background-position: center;
     }
-
+    
     .third_container{
-        margin: 30px;
         padding: 55px;
+        margin-top: 40px;
     }
     .third_flex{
         display: flex;
@@ -399,24 +459,40 @@ button{
         font-size: 37px;
     }
     .fourth_container{
-        display: flex;
+        display: block;
         flex-direction: column;
         gap: 30px;
-        padding: 30px;
+        padding: 0px;
         margin: 0px;
         text-align: center;
     }
-    .fourth_container > div > img{
-        height: 525px;
-        width: 375px;
+    .fourth_img{
+        margin: 40px 0px;
+        height: 550px;
+        width: 45%;
+
+    }
+    .fo_th_content{
+        padding-top: 0%;
+    }
+    .fourth_container > div > .head{
+        line-height: 50px;
+    }
+    .fourth_p{
+        font-size: medium;
+    }
+    .fourth_content{
+        padding-left: 0%;
+    }
+    .fourth_container > div > p {
+        margin-bottom: 1%;
     }
     .fo_th_content > div > p{
         text-align: left;
     }
 
     .fifth_container{
-        margin: 30px;
-        padding: 45px;
+        padding: 40px;
 
     }
     .fifth_flex{
@@ -428,7 +504,6 @@ button{
 
     .sixth_container{
         padding: 75px 20px;
-        margin: 25px;
         background-size: cover;
         border-radius: 10px;
 
@@ -439,6 +514,7 @@ button{
 
     .sixth_container > img{
         width: 25px;
+        margin-top: 0%;
         border-radius: 10px;
         padding: 5px 10px;
         border: 2px solid white;
@@ -458,17 +534,19 @@ button{
     
     .sub_container{
         top: 80%;
-        left: 6%;
-        flex-wrap: wrap;
-        justify-content: space-around;
-        width: 50%;
+        left: 1%;
+        justify-self: anchor-center;
         gap: 0px;
-        margin-right: 25px;
+        width: 46%;
+        height: 160%;
+        flex-wrap: nowrap;
         padding: 30px 73px;
     }
-    
+    .sub_container > div {
+        padding: 0%;
+    }
     .final_container{
-        margin-top: 650px;
+        margin-top: 680px;
         padding: 75px 100px;
         padding-left: 150px;
 
